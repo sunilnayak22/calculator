@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+table {
+    border: 10px solid gray;
+    box-shadow: 3px 4px 4px black;
+    margin-top: 70px;
+    background: gray;
+    width: 240px;
+}
+
+
+input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    font-size: 30px;
+    color: black;
+    background: white;
+}
+
+input[type="button"] {
+    padding: 0px;
+    color: white;
+    width: 60px;
+    height: 60px;
+    box-shadow: 1px 1px 1px white;
+    border-radius: 4px;
+    background: rgb(34, 195, 195);
+    font-size: 22px;
+
+}
